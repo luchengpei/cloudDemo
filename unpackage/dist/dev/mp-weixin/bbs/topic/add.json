@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "mt-footer": "/components/footer",
+    "upimg-box": "/components/upimgbox"
+  }
+}

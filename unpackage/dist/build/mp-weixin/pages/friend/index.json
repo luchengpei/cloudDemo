@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mt-footer": "/components/footer",
+    "calendar": "/components/Calendar"
+  }
+}

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/footer"],{b770:function(i,e,t){"use strict";(function(i){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var t={props:{tab:""},mounted:function(){"home"==this.tab?(this.isActive.home=!0,this.isActive.user=!1,this.isActive.video=!1,this.isActive.friend=!1):"user"==this.tab?(this.isActive.home=!1,this.isActive.user=!0,this.isActive.video=!1,this.isActive.friend=!1):"video"==this.tab?(this.isActive.home=!1,this.isActive.user=!1,this.isActive.video=!0,this.isActive.friend=!1):"friend"==this.tab&&(this.isActive.home=!1,this.isActive.user=!1,this.isActive.video=!1,this.isActive.friend=!0)},data:function(){return{isActive:{home:!1,user:!1,video:!1,friend:!1}}},methods:{goVideo:function(){i.redirectTo({url:"/pages/video/index"})},goFriend:function(){i.redirectTo({url:"/pages/friend/index"})},goHome:function(){i.redirectTo({url:"/pages/index/index"})},goAdd:function(){i.redirectTo({url:"/bbs/topic/add",fail:function(i){console.log(i)}})},goUser:function(){i.redirectTo({url:"/pages/user/index"})}}};e.default=t}).call(this,t("543d")["default"])},ba03:function(i,e,t){"use strict";t.r(e);var n=t("b770"),s=t.n(n);for(var o in n)"default"!==o&&function(i){t.d(e,i,(function(){return n[i]}))}(o);e["default"]=s.a},c63d:function(i,e,t){"use strict";t.r(e);var n=t("cdd1"),s=t("ba03");for(var o in s)"default"!==o&&function(i){t.d(e,i,(function(){return s[i]}))}(o);var r,c=t("f0c5"),u=Object(c["a"])(s["default"],n["b"],n["c"],!1,null,"37940466",null,!1,n["a"],r);e["default"]=u.exports},cdd1:function(i,e,t){"use strict";var n;t.d(e,"b",(function(){return s})),t.d(e,"c",(function(){return o})),t.d(e,"a",(function(){return n}));var s=function(){var i=this,e=i.$createElement;i._self._c},o=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/footer-create-component',
+    {
+        'components/footer-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("c63d"))
+        })
+    },
+    [['components/footer-create-component']]
+]);
